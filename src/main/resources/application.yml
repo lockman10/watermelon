@@ -1,0 +1,13 @@
+#整合thymeleaf
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    template-resolver-order: 0
+  mvc:
+    static-path-pattern: /static/**
+debug: false
+
+
+
+
